@@ -1,0 +1,49 @@
+/*
+Student  : Brandon Nguyen
+Professor: Yi Zhang
+Course   : CTS1851C - CIW Foundations
+Filename : Nguyen_ImageMap.css
+Date     : July 15, 2015
+*/
+
+body {
+    background-image: url("../img/w1.gif");
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+p {
+	text-align: center;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.container img {
+	display:block;
+    margin:auto;
+}
+
+.container svg {
+	display:block;
+    margin:auto;
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+.st0:hover {
+	opacity: 0.3;
+}
+
+.h1 { 
+	background-color: yellow;  
+    color: red;
+	font-weight: bold;
+}

@@ -1,0 +1,43 @@
+/*
+Student  : Brandon Nguyen
+Professor: Yi Zhang
+Course   : CTS1851C - CIW Foundations
+Filename : Nguyen_WebForm.css
+Date     : July 8, 2015
+*/
+
+body { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	background-image: url("w1.gif");
+	padding-bottom: 30px;
+}
+
+article {			
+	padding:10px;
+	background-color:#ffff99;
+	display:block;
+	opacity: 0.8;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+}
+
+blockquote {
+	quotes: none;
+	border: transparent;
+}
+
+h1 { 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:24px;
+	text-align: center;
+}
+p,h1 {
+	margin:0px 10px 10px 10px;
+}
+
+p:empty {
+    width: 100px;
+    height: 10px;
+    }

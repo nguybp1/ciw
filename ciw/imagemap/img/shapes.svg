@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Bases" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="577px" viewBox="0 0 1024 577" style="enable-background:new 0 0 1024 577;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<image style="overflow:visible;" width="1024" height="577" id="Shapes" xlink:href="shapes.jpg" >
+</image>
+<rect id="Square" x="34.6" y="32.7" class="st0" width="179.9" height="191.6"/>
+<circle id="Circle" class="st0" cx="343.7" cy="132.7" r="96"/>
+<polygon id="Triangle" class="st0" points="591.8,20.4 690.5,217.1 493.7,217.1 "/>
+<rect id="Rectangle" x="758" y="32.7" class="st0" width="241.6" height="170.8"/>
+<ellipse id="Oval" class="st0" cx="104.1" cy="416.1" rx="80.5" ry="125"/>
+<polygon id="Diamond" class="st0" points="331.4,291.1 435.3,413.2 331.4,535.3 226.8,413.2 "/>
+<polygon id="Trapezoid" class="st0" points="512,293.7 624.9,293.7 682,522.3 456.7,522.3 "/>
+<polygon id="Hexagon" class="st0" points="805.4,288.5 920.4,288.5 976.8,400.9 921,514.5 805.4,514.5 747.6,401.5 "/>
+</svg>

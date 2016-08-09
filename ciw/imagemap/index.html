@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<!-- Student  : Brandon Nguyen             -->
+<!-- Professor: Yi Zhang                   -->
+<!-- Course   : CTS1851C - CIW Foundations -->
+<!-- Project  : Nguyen_ImageMap            -->
+<!-- Filename : Nguyen_ImageMap.html       -->
+<!-- Date     : July 15, 2015              -->
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Author" content="Brandon Nguyen">
+    <meta name="Description" content="Brandon Nguyen Image Map">
+    <meta name="Keywords" content="Brandon Nguyen, Brandon, Nguyen, Image Map, Image, Map">
+	<link rel="icon" href="img/favicon.ico" sizes="16x16 32x32" type="image/png">
+	
+	<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/Nguyen_ImageMap.css" rel="stylesheet">
+
+    <!-- Web page Title -->
+    <title>Brandon Nguyen Image Map</title>
+    
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<!-- JavaScript for Landing Pages -->
+	<script>
+		function mySquare() {
+			location = "Square.html";
+		}
+		function myCircle() {
+			location = "Circle.html";
+		}
+		function myTriangle() {
+			location = "Triangle.html";
+		}
+		function myRectangle() {
+			location = "Rectangle.html";
+		}
+		function myOval() {
+			location = "Oval.html";
+		}
+		function myDiamond() {
+			location = "Diamond.html";
+		}
+		function myTrapezoid() {
+			location = "Trapezoid.html";
+		}
+		function myHexagon() {
+			location = "Hexagon.html";
+		}
+	</script>
+
+</head>
+
+<body>
+        
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">JLBN</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="Nguyen_ImageMap.html">Image Map</a>
+                    </li>                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	<!-- / .Navigation -->
+    
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Features -->
+		<div class="row">
+            <div class="col-lg-12">
+                <div class="well text-center">
+                    <!-- Interactive Image Map -->
+					<h3>Brandon Nguyen - Image Map</h3>
+					<h1><span class="h1">Basic Shapes</span></h1>
+                </div>
+				<svg version="1.1" id="Bases" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1024px" height="577px" viewBox="0 0 1024 577" style="disable-background:new 0 0 1024 577;" xml:space="preserve">
+				<image style="overflow:invisible;" width="1024" height="577" id="Shapes" xlink:href="img/shapes.png" ></image>
+				<rect id="Square" class="st0" x="34.6" y="32.7" width="179.9" height="191.6" fill="red" onclick="mySquare()"/>
+				<circle id="Circle" class="st0" cx="345.4" cy="132.7" r="96" fill="purple" onclick="myCircle()"/>
+				<polygon id="Triangle" class="st0" points="591.8,20.4 690.5,217.1 493.7,217.1 " fill="yellow" onclick="myTriangle()"/>
+				<rect id="Rectangle" x="758" y="32.7" class="st0" width="241.6" height="170.8" fill="darkgreen" onclick="myRectangle()"/>
+				<ellipse id="Oval" class="st0" cx="104.1" cy="416.1" rx="80.5" ry="125" fill="blue" onclick="myOval()"/>
+				<polygon id="Diamond" class="st0" points="331.4,291.1 435.3,413.2 331.4,535.3 226.8,413.2" fill="pink" onclick="myDiamond()"/>
+				<polygon id="Trapezoid" class="st0" points="512,293.7 624.9,293.7 682,522.3 456.7,522.3" fill="lightgreen" onclick="myTrapezoid()"/>
+				<polygon id="Hexagon" class="st0" points="805.4,288.5 920.4,288.5 976.8,400.9 921,514.5 805.4,514.5 747.6,401.5" fill="darkorange" onclick="myHexagon()" />
+				</svg>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+        
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; JLBN 2005</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
