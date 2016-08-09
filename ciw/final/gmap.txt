@@ -1,0 +1,8 @@
+Large:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21080.85383783609!2d-80.1768507544414!3d26.24962969111189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d90354fdbff275%3A0x1c68fad7427252c3!2sCoconut+Creek%2C+FL!5e0!3m2!1sen!2sus!4v1438266517661" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Midium:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18245.86004984257!2d-80.1800013290242!3d26.252110964540346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d90354fdbff275%3A0x1c68fad7427252c3!2sCoconut+Creek%2C+FL!5e0!3m2!1sen!2sus!4v1438267317785" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Custom 1024x320:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18248.631259724665!2d-80.17742531120659!3d26.2344608297098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d90354fdbff275%3A0x1c68fad7427252c3!2sCoconut+Creek%2C+FL!5e0!3m2!1sen!2sus!4v1438268389760" width="1024" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>

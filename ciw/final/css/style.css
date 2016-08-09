@@ -1,0 +1,413 @@
+body {
+	color: rgb(62, 62, 62); line-height: 21px; font-family: "Tahoma", sans-serif; font-size: 14px; font-weight: 400; -ms-overflow-x: hidden;
+}
+img {
+	max-width: 100%;
+}
+a:link {
+	color: rgb(253, 200, 43); text-decoration: none;
+}
+a:hover {
+	color: rgb(253, 200, 43);
+}
+a:visited {
+	color: rgb(253, 200, 43); text-decoration: none;
+}
+.fright {
+	float: right;
+}
+.fleft {
+	float: left;
+}
+.overflow_hidden {
+	-ms-overflow-x: hidden;
+}
+#undefined-sticky-wrapper {
+	height: 0px !important; position: relative;
+}
+.menu {
+	background: rgb(62, 62, 62); width: 100%; height: 76px; bottom: 0px; position: absolute; z-index: 9999;
+}
+#logo {
+	margin-bottom: 0px; margin-left: 0px; float: left;
+}
+#nav {
+	text-align: right;
+}
+.navigation {
+	list-style: none; margin: 0px;
+}
+ul.navigation {
+	margin: 0px auto; padding: 0px; width: 500px; position: relative;
+}
+.navigation li {
+	background: none; margin: 23px 15px 21px; padding: 5px 3px; transition:0.2s ease-in-out; text-align: left; color: rgb(183, 183, 183); text-transform: uppercase; line-height: 20px; font-family: "Raleway", sans-serif; font-size: 14px; font-weight: 400; float: left; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;
+}
+.navigation li:hover {
+	background: rgb(253, 200, 43); color: rgb(62, 62, 62); cursor: pointer;
+}
+.navigation .active {
+	background: rgb(253, 200, 43); color: rgb(62, 62, 62); cursor: pointer;
+}
+.btn_dropdown {
+	background: rgb(255, 255, 255); margin: 20px 30px 0px 0px; border-radius: 5px; width: 130px; height: 36px; text-align: center; color: rgb(62, 62, 62); line-height: 36px; font-family: "Raleway", sans-serif; font-size: 18px; font-weight: 700; display: none; cursor: pointer;
+}
+.btn_dropdown:hover {
+	color: rgb(62, 62, 62);
+}
+.slide {
+	padding: 0px; width: 100%; height: 100%; position: relative; background-attachment: fixed;
+}
+h2 {
+	background: none; margin: 0px 0px 23px; padding: 0px 20px; text-align: center; color: rgb(62, 62, 62); text-transform: uppercase; line-height: 86px; font-family: "Raleway", sans-serif; font-size: 69px; font-style: normal; font-weight: 400;
+}
+.slide_descr {
+	margin: 0px auto; width: 790px;
+}
+h3 {
+	margin: 0px; padding: 40px 0px 32px; text-align: center; color: rgb(62, 62, 62); text-transform: uppercase; line-height: 36px; font-family: "Raleway", sans-serif; font-size: 32px; font-style: normal; font-weight: 800;
+}
+.author span {
+	padding: 0px 8px; color: rgb(62, 62, 62); text-transform: uppercase; line-height: 36px; font-family: "Raleway", sans-serif; font-size: 15px; font-weight: 800; display: inline-block;
+}
+.author_bord {
+	background: url("../img/author_bord.png") no-repeat; width: 22px; height: 1px; padding-bottom: 5px; display: inline-block;
+}
+h4 {
+	margin: 0px; padding: 0px 0px 15px; text-align: left; color: rgb(62, 62, 62); text-transform: none; line-height: 36px; font-family: "Raleway", sans-serif; font-size: 32px; font-style: normal; font-weight: 400;
+}
+img.icon_img {
+	margin-top: 20px; margin-right: 20px; margin-bottom: 25px; float: left;
+}
+.effect_2 {
+	background: url("../img/effect_2.png") left top; top: 0px; height: 100%; bottom: -57px; position: relative; z-index: 999 !important;
+}
+.padding_slide1 {
+	padding: 241px 0px 101px;
+}
+.inset_shadow {
+	left: 0px; top: 0px; right: 0px; bottom: 76px; position: absolute; z-index: 10; box-shadow: inset 0px 0px 60px rgba(0,0,0,0.7);
+}
+#slide1 {
+	width: 100%; text-align: center; background-image: url("../img/slide1_bg.jpg"); background-size: cover !important;
+}
+.filtr_bg {
+	text-align: center; position: relative; z-index: 20;
+}
+#slide1 h1 {
+	margin: 0px; padding: 0px; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 149px; font-family: "Raleway", sans-serif; font-size: 179px; font-weight: 900; border-right-color: currentColor; border-right-width: medium; border-right-style: none; float: none; display: block;
+}
+#slide1 span {
+	margin: 0px; padding: 0px 0px 14px; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 30px; letter-spacing: 0.7px; font-family: "Raleway", sans-serif; font-size: 22px; font-weight: 800; border-bottom-color: rgb(206, 206, 206); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.slogan_text {
+	padding: 0px 25px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 33px; font-family: "Raleway", sans-serif; font-size: 25px; font-weight: 800; display: inline-block;
+}
+.left_bord {
+	background: rgb(206, 206, 206); width: 340px; height: 1px; margin-bottom: 8px; display: inline-block;
+}
+.right_bord {
+	background: rgb(206, 206, 206); width: 340px; height: 1px; margin-bottom: 8px; display: inline-block;
+}
+#slide1 .button {
+	background: url("../img/button_down.png") no-repeat bottom; margin: 185px auto 0px; border: currentColor; transition:0.2s ease-in-out; border-image: none; width: 35px; height: 20px; text-transform: uppercase; display: block; cursor: pointer; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;
+}
+#slide2 {
+	background: url("../img/slide2_bg.jpg") left top; padding: 86px 0px 69px; width: 100%;
+}
+.testim_in {
+	margin-bottom: 14px;
+}
+.testim_block {
+	background: rgb(255, 255, 255); padding: 16px 18px 18px; color: rgb(100, 100, 100); position: relative;
+}
+.testim_block span {
+	background: url("../img/testim_span_bg.png") no-repeat; width: 36px; height: 27px; right: 0px; bottom: -27px; display: block; position: absolute;
+}
+.author {
+	color: rgb(54, 53, 53); margin-top: 29px; float: right;
+}
+.about_bord {
+	background: rgb(206, 178, 73); width: 100%; height: 1px; margin-bottom: 23px;
+}
+#slide4 {
+	background: url("../img/slide4_bg.jpg") left top; padding: 86px 0px 69px; width: 100%;
+}
+.educ_block {
+	margin: 7px 0px 24px; padding: 0px 0px 0px 30px; color: rgb(121, 121, 121); border-left-color: rgb(253, 200, 43); border-left-width: 3px; border-left-style: solid;
+}
+.educ_block p {
+	padding: 0px 0px 10px; color: rgb(62, 62, 62); text-transform: none; line-height: 22px; font-family: "Raleway", sans-serif; font-size: 20px; font-weight: 400;
+}
+#skills_block p {
+	padding: 0px 0px 7px; color: rgb(128, 128, 128); line-height: 20px; font-family: "Raleway", sans-serif; font-weight: 300;
+}
+#skills_block p b {
+	color: rgb(62, 62, 62); font-weight: 400;
+}
+#skills_block li {
+	background: rgb(221, 221, 221); width: 99%; height: 13px; margin-bottom: 15px;
+}
+
+#skills_block li p {
+	background: rgb(255, 255, 255);
+}
+
+.progress {
+	height: 13px; overflow: hidden; margin-bottom: 16px; background-color: rgb(221, 221, 221);
+}
+.progress .bar {
+	transition:width 0.6s; width: 0%; height: 100%; text-align: center; font-size: 12px; float: left; box-sizing: border-box; background-image: linear-gradient(rgb(20, 155, 223), rgb(4, 128, 190)); background-repeat: repeat-x; background-color: rgb(14, 144, 210); -moz-transition: width 0.6s ease; -webkit-transition: width 0.6s ease; -o-transition: width 0.6s ease; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.progress .bar + .bar {
+	box-shadow: inset 1px 0px 0px rgba(0,0,0,0.15), inset 0px -1px 0px rgba(0,0,0,0.15); -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .15), inset 0 -1px 0 rgba(0, 0, 0, .15); -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .15), inset 0 -1px 0 rgba(0, 0, 0, .15);
+}
+.progress-striped .bar {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); background-size: 15px 15px; background-color: rgb(253, 200, 43); -webkit-background-size: 15px 15px; -moz-background-size: 15px 15px; -o-background-size: 15px 15px;
+}
+.active.progress .bar {
+	animation:progress-bar-stripes 2s linear infinite; -webkit-animation: progress-bar-stripes 2s linear infinite; -moz-animation: progress-bar-stripes 2s linear infinite; -o-animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-danger .bar {
+	background-image: linear-gradient(rgb(238, 95, 91), rgb(196, 60, 53)); background-repeat: repeat-x; background-color: rgb(221, 81, 76);
+}
+.progress .bar-danger {
+	background-image: linear-gradient(rgb(238, 95, 91), rgb(196, 60, 53)); background-repeat: repeat-x; background-color: rgb(221, 81, 76);
+}
+.progress-striped.progress-danger .bar {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); background-color: rgb(238, 95, 91);
+}
+.progress-striped .bar-danger {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); background-color: rgb(238, 95, 91);
+}
+.progress-success .bar {
+	background-image: linear-gradient(rgb(98, 196, 98), rgb(87, 169, 87)); background-repeat: repeat-x; background-color: rgb(94, 185, 94);
+}
+.progress .bar-success {
+	background-image: linear-gradient(rgb(98, 196, 98), rgb(87, 169, 87)); background-repeat: repeat-x; background-color: rgb(94, 185, 94);
+}
+.progress-striped.progress-success .bar {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); background-color: rgb(98, 196, 98);
+}
+.progress-striped .bar-success {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); background-color: rgb(98, 196, 98);
+}
+.progress-info .bar {
+	background-image: linear-gradient(rgb(91, 192, 222), rgb(51, 155, 185)); background-repeat: repeat-x; background-color: rgb(75, 177, 207);
+}
+.progress .bar-info {
+	background-image: linear-gradient(rgb(91, 192, 222), rgb(51, 155, 185)); background-repeat: repeat-x; background-color: rgb(75, 177, 207);
+}
+.progress-striped.progress-info .bar {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); background-color: rgb(91, 192, 222);
+}
+.progress-striped .bar-info {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); background-color: rgb(91, 192, 222);
+}
+.progress-warning .bar {
+	background-image: linear-gradient(rgb(251, 180, 80), rgb(248, 148, 6)); background-repeat: repeat-x; background-color: rgb(250, 167, 50);
+}
+.progress .bar-warning {
+	background-image: linear-gradient(rgb(251, 180, 80), rgb(248, 148, 6)); background-repeat: repeat-x; background-color: rgb(250, 167, 50);
+}
+.progress-striped.progress-warning .bar {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); background-color: rgb(251, 180, 80);
+}
+.progress-striped .bar-warning {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); background-color: rgb(251, 180, 80);
+}
+.skill1 {
+	width: 60%;
+}
+.skill2 {
+	width: 80%;
+}
+.skill3 {
+	width: 45%;
+}
+#slide8 {
+	background: url("../img/slide8_bg.jpg") left top; padding: 86px 0px 69px; width: 100%;
+}
+#slide8 h2 {
+	color: rgb(253, 200, 43);
+}
+.gallery-list {
+	text-align: center; margin-right: -20px !important;
+}
+#slide8 .hover_img {
+	background: rgb(52, 52, 52); width: 235px; height: 211px; overflow: hidden; position: relative;
+}
+.img_block {
+	margin: 0px 20px 20px 0px; width: 235px; height: 211px; display: inline-block;
+}
+.portfolio_zoom {
+	border-radius: 50%; transition:0.3s ease-in-out; top: -104px; width: 40px; height: 40px; position: absolute; opacity: 0.54; background-repeat: no-repeat; background-color: rgb(62, 62, 62); -moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;
+}
+.portfolio_link {
+	border-radius: 50%; transition:0.3s ease-in-out; top: -104px; width: 40px; height: 40px; position: absolute; opacity: 0.54; background-repeat: no-repeat; background-color: rgb(62, 62, 62); -moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;
+}
+.portfolio_zoom {
+	background-position: 0px 0px; left: 76px; z-index: 302; transition-delay: 0.2s; background-image: url("../img/zoom.png"); -o-transition-delay: 0.2s; -moz-transition-delay: 0.2s; -webkit-transition-delay: 0.2s;
+}
+.portfolio_link {
+	background-position: 0px 0px; right: 76px; z-index: 303; transition-delay: 0.3s; background-image: url("../img/link.png"); -o-transition-delay: 0.3s; -moz-transition-delay: 0.3s; -webkit-transition-delay: 0.3s;
+}
+.portfolio_zoom:hover {
+	z-index: 310; opacity: 1;
+}
+.portfolio_link:hover {
+	z-index: 310; opacity: 1;
+}
+.portfolio_zoom a {
+	width: 40px; height: 40px; text-indent: -9999px; display: block;
+}
+.portfolio_link a {
+	width: 40px; height: 40px; text-indent: -9999px; display: block;
+}
+.hover_img:hover .portfolio_zoom {
+	top: 104px;
+}
+.hover_img:hover .portfolio_link {
+	top: 104px;
+}
+.item_description {
+	background: rgb(253, 200, 43); transition:0.2s ease-in-out; left: 0px; top: -220px; height: 211px; text-align: center; right: 0px; color: rgb(62, 62, 62); position: absolute; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;
+}
+.hover_img:hover .item_description {
+	top: 0px;
+}
+.item_description p {
+	margin: 0px; padding: 22px 10px 0px; color: rgb(62, 62, 62); text-transform: uppercase; line-height: 26px; font-family: "Raleway", sans-serif; font-size: 18px; font-weight: 400;
+}
+#filters {
+	text-align: center; margin-top: 22px; margin-bottom: 20px;
+}
+#filters li {
+	display: inline-block; position: relative;
+}
+#filters li a {
+	background: rgb(252, 252, 252); margin: 0px 6px 10px 0px; padding: 3px 15px; color: rgb(62, 62, 62); text-transform: none; line-height: 26px; font-family: "Raleway", sans-serif; font-size: 16px; font-weight: 400; display: block; position: relative; z-index: 10;
+}
+#filters li a span {
+	background: rgb(253, 200, 43); transition:0.2s ease-in-out; left: 0px; top: 0px; width: 3px; bottom: 0px; position: absolute; z-index: -1; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;
+}
+#filters li a:hover span {
+	width: 100%;
+}
+#filters li .selected span {
+	width: 100%;
+}
+.isotope-item {
+	z-index: 2;
+}
+.isotope-item.isotope-hidden {
+	z-index: 1; /* pointer-events: none; */
+}
+.isotope {
+	transition-duration: 0.8s; -webkit-transition-duration: 0.8s; -moz-transition-duration: 0.8s;
+}
+.isotope .isotope-item {
+	transition-duration: 0.8s; -webkit-transition-duration: 0.8s; -moz-transition-duration: 0.8s;
+}
+.isotope {
+	transition-property: height, width; -webkit-transition-property: height, width; -moz-transition-property: height, width;
+}
+.isotope .isotope-item {
+	transition-property: transform, opacity; -webkit-transition-property: -webkit-transform, opacity; -moz-transition-property: -moz-transform, opacity;
+}
+.no-transition.isotope {
+	transition-duration: 0s; -webkit-transition-duration: 0s; -moz-transition-duration: 0s;
+}
+.no-transition.isotope .isotope-item {
+	transition-duration: 0s; -webkit-transition-duration: 0s; -moz-transition-duration: 0s;
+}
+.isotope .no-transition.isotope-item {
+	transition-duration: 0s; -webkit-transition-duration: 0s; -moz-transition-duration: 0s;
+}
+.infinite-scrolling.isotope {
+	transition:none; -moz-transition: none; -webkit-transition: none;
+}
+.element {
+	overflow: hidden; position: relative;
+}
+.element img {
+	max-width: 100%;
+}
+#slide10 {
+	background: url("../img/slide10_bg.jpg") left top; padding: 86px 0px 0px;
+}
+#slide10 .container {
+	margin-bottom: 80px;
+}
+:-ms-input-placeholder {
+	color: rgb(146, 146, 146) !important; opacity: 1 !important;
+}
+.contact_form input[type='text'] {
+	background: rgb(255, 255, 255); margin: 22px 0px 0px; padding: 17px 10px 17px 21px; border: 1px solid rgb(227, 227, 227); border-image: none; width: 93%; color: rgb(146, 146, 146); line-height: 21px; font-size: 14px;
+}
+.contact_form textarea {
+	background: rgb(255, 255, 255); margin: 22px 0px 0px; padding: 17px 10px 17px 21px; border: 1px solid rgb(227, 227, 227); border-image: none; width: 93%; color: rgb(146, 146, 146); line-height: 21px; font-size: 14px;
+}
+.contact_form input[type='text']:first-child {
+	margin-top: 0px;
+}
+.contact_form textarea {
+	height: auto; margin-top: 0px; min-height: 164px; resize: none;
+}
+.contact_btn {
+	background: rgb(62, 62, 62); margin: 0px 4px 10px 0px; padding: 7px 25px; border: currentColor; transition:0.2s ease-in-out; border-image: none; text-align: center; color: rgb(255, 255, 255); text-transform: none; line-height: 20px; font-family: "Raleway", sans-serif; font-size: 16px; font-weight: 400; vertical-align: middle; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;
+}
+.contact_btn:hover {
+	background: rgb(253, 200, 43); color: rgb(62, 62, 62);
+}
+.send_btn {
+	background: rgb(253, 200, 43); color: rgb(62, 62, 62);
+}
+#note .notification_ok {
+	background: rgb(62, 62, 62); padding: 7px 10px; text-align: center; color: rgb(255, 255, 255); text-transform: none; font-family: "Raleway", sans-serif; font-size: 14px; font-weight: 400; margin-top: 20px;
+}
+#note .notification_error {
+	color: rgb(255, 0, 0); font-family: "Raleway", sans-serif; font-size: 16px; font-weight: 400;
+}
+/*
+#map_block {
+	margin: 0px;
+}
+*/
+	
+.google-maps {
+    position: relative;
+    padding-bottom: 20%; /* This is the aspect ratio; */
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* !important; */
+    height: 320px; /* 100% !important; */
+	border: 0;
+}
+
+#footer {
+	background: rgb(62, 62, 62); padding: 27px 0px 23px;
+}
+.copyright {
+	color: rgb(233, 233, 233); text-transform: uppercase; font-family: "Raleway", sans-serif; font-weight: 300; float: left;
+}
+.copyright a {
+	color: rgb(253, 200, 43);
+}
+.copyright a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+#back_top {
+	float: right;
+}
+#back_top a.button {
+	background: url("../img/back_top.png") no-repeat; margin: 0px; width: 13px; height: 9px; color: rgb(255, 255, 255); text-transform: uppercase; font-family: "Raleway", sans-serif; font-weight: 400; display: block; position: relative; z-index: 300; cursor: pointer;
+}
+#back_top a.button:hover {
+	text-decoration: none;
+}
