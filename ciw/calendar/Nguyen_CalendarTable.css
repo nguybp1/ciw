@@ -1,0 +1,197 @@
+/*
+Student  : Brandon Nguyen
+Professor: Yi Zhang
+Course   : CTS1851C - CIW Foundations
+Filename : Nguyen_CalendarTable.css
+Date     : July 8, 2015
+*/
+
+body { 
+	background-image: url("w1.gif");
+	font-family: Verdana, Arial, Helvetica, sans-serif; 		
+}
+
+h1 {
+	text-align: center; color: rgb(0, 0, 0); line-height: 1; font-family: Helvetica,Arial,Sans-Serif; font-weight: normal;
+}
+h2 {
+	text-align: center; color: rgb(0, 0, 0); line-height: 0.8; font-family: Helvetica,Arial,Fantasy; font-weight: normal;
+}
+h3 {
+	text-align: center; color: rgb(0, 0, 0); line-height: 0.6; font-family: Helvetica,Arial,Courier; font-weight: normal;
+}
+.b {
+	font-weight: bold;
+}
+
+/* Table main structure */
+table {
+	background: 0px; text-align: left; font-size: 14px; border-collapse: collapse; border-spacing: 0; empty-cells: show;
+}
+table tfoot tr {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+thead {
+	text-align: left; font-weight: normal; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+th {
+	padding: 0px; text-align: left; vertical-align: top;
+}
+td {
+	padding: 0px; border: 0px currentColor; border-image: none; vertical-align: top;
+}
+table.ca {
+	border-collapse: collapse;
+}
+/* / .Table main structure */
+
+#calarea {
+	color: black; line-height: 1.2; font-size: 108%;
+}
+#calarea h1 {
+	font-weight: bold;
+}
+
+/* Font color */
+.co1 {
+	color: red;
+}
+.co2 {
+	color: green;
+}
+.co3 {
+	color: blue;
+}
+.co4 {
+	color: gray;
+}
+/* / .Font color */
+
+tr.ce {
+	height: 0.5em;
+}
+tr.ce td {
+	padding: 0px; font-size: 0.1em;
+}
+div.ck {
+	font-size: 0.9em;
+}
+.ca td {
+	vertical-align: bottom;
+}
+.ca td {
+	border: 1px rgb(0, 0, 0);
+}
+.ca div {
+	border: 1px rgb(0, 0, 0);
+}
+.ca3 {
+	width: 13em;
+}
+.ca3 td {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cd2 th {
+	border-width: 1px;
+}
+.cd2 td.cmi {
+	border-width: 1px;
+}
+.cd2 td.cbo {
+	border-width: 1px;
+}
+.mct {
+	margin: 0px auto;
+}
+.mct th {
+	padding: 0.2em; text-align: center;
+}
+.mct td.cbm {
+	padding: 0px;
+}
+table.ct1 {
+	border-collapse: collapse; border-spacing: 0;
+}
+.ct1 {
+	font-family: Arial,Helvetica,Sans-serif;
+}
+.ct1 th {
+	border-width: 1px; border-style: solid solid none; border-color: rgb(0, 0, 238); padding: 0px; font-size: 1.28em; -moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; vertical-align: top;
+}
+.ct1 td {
+	vertical-align: top;
+}
+.ct1 .cmi {
+	border-width: 1px; border-style: none solid; border-color: rgb(0, 0, 238); padding: 0px; -moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+.ct1 .cbo {
+	border-width: 1px; border-style: none solid solid; border-color: rgb(0, 0, 238); padding: 0px; -moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+.ct1 .ca2 td {
+	padding: 0.1em; border: 1px solid rgb(204, 204, 204); border-image: none; width: 6em; height: 5em; text-align: center;
+}
+.ct1 .ca2 tr.cl td {
+	padding: 0.05em; height: 1em; font-size: 1.2em;
+}
+.ct1 .ca2 td.ck {
+	height: auto;
+}
+.ct1 th.ca2 {
+	font-size: 2em;
+}
+.ct1 .ccd {
+	font-size: 1.5em;
+}
+.ct1 .ck {
+	text-align: center;
+}
+.ct1 div {
+	border-width: 1px;
+}
+table.cp4 {
+	border-collapse: separate;
+}
+.cp4 tr.ce {
+	height: 0.5em;
+}
+.cp4 td.cz {
+	width: 0.5em;
+}
+
+/* Table background color */
+.cl1 .cl td {
+	background: 0px 0px silver;
+}
+.cl1 .ct1 .cw {
+	background: 0px 0px silver;
+}
+.cl1 .ck {
+	background: 0px 0px silver;
+}
+.cl1 th {
+	border-color: rgb(0, 0, 238); background: 0px 0px rgb(224, 224, 224);
+}
+.cl1 .cmi {
+	border-color: rgb(0, 0, 238);
+}
+.cl1 .cbo {
+	border-color: rgb(0, 0, 238);
+}
+.cl1 .cbm {
+	background: 0px 0px rgb(240, 240, 240);
+}
+.cl1 table.ca2 {
+	background: 0px 0px rgb(240, 240, 240);
+}
+.cl1 .cbb {
+	background: 0px 0px rgb(240, 240, 240);
+}
+.cl1 .ca3 .cv {
+	background: 0px 0px rgb(204, 204, 204);
+}
+.cl1 .ca3 .cn {
+	background: 0px 0px rgb(204, 204, 204);
+}
+/* / .Table background color */
+
+
